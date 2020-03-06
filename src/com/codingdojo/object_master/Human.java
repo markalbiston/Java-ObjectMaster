@@ -13,8 +13,9 @@ public class Human {
 		this.health = 100;
 	}
 	
-	public void Attack(Human attackedHuman) {
+	public Human attack(Human attackedHuman) {
 		attackedHuman.health -= this.strength;
+		return this;
 	}
 	public void displayHealth() {
 		System.out.println(this.health);

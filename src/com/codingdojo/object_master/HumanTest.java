@@ -6,7 +6,7 @@ public class HumanTest {
 		// TODO Auto-generated method stub
 		Human gus = new Human();
 		Human luke = new Human();
-		luke.Attack(gus);
+		luke.attack(gus);
 		System.out.println("luke health: ");
 		luke.displayHealth();
 		System.out.println("gus health: ");
